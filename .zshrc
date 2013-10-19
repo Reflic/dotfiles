@@ -11,6 +11,12 @@ ZSH_THEME="blinks"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias art="php artisan"
+alias artm="php artisan migrate && php artisan db:seed"
+alias resod="sudo ./reso.sh -d"
+alias resom="sudo ./reso.sh -m"
+alias phu="vendor/bin/phpunit"
+alias phuw="watch --color "vendor/bin/phpunit""
+alias tast="xmodmap -e 'keycode 49 = less greater less greater bar brokenbar bar' -e 'keycode 94 = dead_circumflex degree dead_circumflex degree U2032 U2033 U2032'"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
